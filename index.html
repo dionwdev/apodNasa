@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="NASA Astronomy Picture of the Day archive">
+    	<meta name="keywords" content="NASA, archive, space, photos, videos">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Astronomy Picture of the Day Archive</title>
+		<!--font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Archive</h1>
+		</header>
+		<section id="media">
+			<img id="image" class="hidden" src="" alt="Picture Of Day">
+			<iframe id="video" class="hidden" src="" frameborder="0" ></iframe>
+		</section>
+
+		<section id="main">
+			<img src="images/nasalogo.png" id="logo" alt="Nasa Logo">
+			<div id="infoBox">
+			<h2>ASTRONOMY FLASHBACK</h2>
+			<input id='cal' type="date" name="" value="">
+			<button type="button" name="button">Select Date</button>
+			
+			<p id="title"></p>
+			<p id="copyright"></p>
+			<p id="explanation"></p>
+			<p id="about"></p>
+			<p id="date"></p>
+			</div>
+
+		</section>
+		<footer>
+			<span>Not an official NASA website</span><span> <a class="copyright" href="http://dionwilson.dev">&copy;DionWilson.Dev</a></span>
+		</footer>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
